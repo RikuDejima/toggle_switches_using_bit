@@ -28,10 +28,6 @@ class DemoApp extends StatelessWidget {
   }
 }
 
-class Value {
-  final names = [];
-}
-
 class SwitchesModel extends ChangeNotifier {
   int _selected = 0;
   List<int> values = [];
